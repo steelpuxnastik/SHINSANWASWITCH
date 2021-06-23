@@ -21,7 +21,7 @@ Photointerrupter microswitch/lamp holder 2-in-1 (similar to OBSA-LHSXF) for gene
   - 1x JST `PHR-5` or equivalent.
 - 1x LED assembly (no resistors required)
   - 2x **JST PH** to **.1" female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. Can be made by soldering single-ended JST PH wire and .1" female wire together and wrapping each wire with heat shrink tubing).
-  - 1x 20ma white LED (plugs into the .1" female connector).
+  - 1x 20mA through hole white LED (plugs into the .1" female connector).
   - 1x JST `PHR-2` or equivalent.
   - 1x 2 pin .1" female connector housing.
 
