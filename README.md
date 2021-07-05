@@ -32,4 +32,4 @@ DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm C
   - 1x `STL/cap.STL`
   - 1x `STL/lever.STL`
 - 1x 0.3x6x10mm (wire thickness x outer diameter x length) spring (can be found on e.g. aliexpress).
-- 2x M?x? screws <!-- TODO confirm the type with steelpuxnastik -->
+- 2x M2x8 screws
