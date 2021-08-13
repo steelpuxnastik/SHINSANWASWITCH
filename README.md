@@ -30,7 +30,10 @@ DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm C
 - 3D printable parts (printing in resin recommended for best accuracy but not required)
   - 1x `STL/body.STL`
   - 1x `STL/cap.STL`
-  - 1x `STL/lever.STL`
+  - 3x `STL/lever-*.STL` (because of possible differences of generic 100mm Chinese arcade buttons and possible differences in preferences of players that will use it there available 3 different lengts of levers that you should print separately (and better in different colors) and then determine from your own experience what is best for you)
+	- 1x `STL/lever_long.STL`
+	- 1x `STL/lever_middle.STL`
+	- 1x `STL/lever_short.STL`
 - 1x 0.3x6x10mm (wire thickness x outer diameter x length) spring (can be found on e.g. aliexpress).
 - 2x M2x8 screws
 
