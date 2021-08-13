@@ -6,7 +6,7 @@ DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm C
 
 ### Electrical
 
-- PCB: 1x `shinsanwaswitch_PCB` (KiCad 5.99+ required for exporting Gerber files)
+- PCB: 1x `shinsanwaswitch_PCB` 1mm thickness (KiCad 5.99+ (5.99.0-11575-g46338403e7), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
   - D1: `NSI45020AT1G`.
   - J1: `S5B-PH-K-S` or equivalent.
