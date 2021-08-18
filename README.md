@@ -2,11 +2,15 @@
 
 DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm Chinese arcade buttons. Enables an OBSA-LHSXF+OBSA-100UMQ-like setup at low cost with generic parts.
 
+## Updates
+- Now we are corrently working on SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two parts: v1 and v1.1 . If you want corrently stable version - use everything that named "v1". 
+Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to make different variants of PCB to make with possibility to make one-layered-board at home (if you have anought skill). More info here:  https://www.projectdiva.net/community/threads/shinsanwaswitch-blog-of-creating-diy-analog-of-obsa-lhsxf-ln.2325/page-2#post-18644
+
 ## Parts list
 
 ### Electrical
 
-- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11575-g46338403e7), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip` or very soon I'll make and upload updated version of SHINSANWASWITCH with possibility of more comfortable making one-layered-board by yourself at home if you have anough instruments and skill)
+- PCB: 1x `shinsanwaswitch_PCB` 1mm thickness (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch_v1.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
   - D1: `NSI45020AT1G`.
   - J1: `S5B-PH-K-S` or equivalent.
@@ -47,3 +51,6 @@ DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm C
 - Supports: only from the bed
 - Filament: PETG
 - Color: any, but the lever must be black or the part of lever that crosses the optocoupler must be painted with a marker in black in several layers, otherwise the optocoupler will work incorrectly and the switch will not work correctly.
+
+## Source files
+In folder `source` there are available source files that used to create 3D-models in SolidWorks. You can use them to make your modification, if you need it.

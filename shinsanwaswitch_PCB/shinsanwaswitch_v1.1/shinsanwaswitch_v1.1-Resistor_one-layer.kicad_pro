@@ -10,8 +10,8 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 1,
-        "dimension_units": 0,
+        "dimension_precision": 4,
+        "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 1.4,
-          "width": 1.0
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -84,8 +84,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -111,15 +111,11 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.4,
-        0.5,
-        0.7,
         0.8
       ],
       "via_dimensions": [
@@ -323,19 +319,19 @@
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
       "extra_units": "error",
-      "global_label_dangling": "error",
+      "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "multiple_net_names": "error",
-      "net_not_bus_member": "error",
-      "no_connect_connected": "error",
-      "no_connect_dangling": "error",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
-      "similar_labels": "error",
+      "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -347,7 +343,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "shinsanwaswitch.kicad_pro",
+    "filename": "shinsanwaswitch_v1.1-Resistor_one-layer.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -379,10 +375,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../../../Program Files/KiCad/5.99/",
       "specctra_dsn": "",
-      "step": "../../shinsanwaswitch.step",
-      "vmrl": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -402,13 +397,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
