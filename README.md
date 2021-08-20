@@ -43,7 +43,7 @@ I/O port (from up to down):
 |  4  | OUT |
 |  5  | GND |
 
-<img src="source/board.webp" align="right" alt="board" />
+<img src="source/board.webp" align="right" alt="board" width="40%" height="40%" />
 
 LED connector (from up to down):
 
