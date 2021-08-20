@@ -581,7 +581,7 @@
   (gr_text "OUT" (at 130.25 85.7) (layer "B.SilkS") (tstamp 3836d1b4-128d-4471-a55d-ba8962379cf6)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
   )
-  (gr_text "SHINSANWASWITCH board\nby steelpuxnastik / Doctopus\nfrom ProjectDIVA.net\nver 1.0 with LED Driver\n2020" (at 147.75 80.425) (layer "B.SilkS") (tstamp 685faa48-12df-4de2-9770-92353bf773e3)
+  (gr_text "SHINSANWASWITCH board\nby steelpuxnastik / Doctopus\nfrom ProjectDIVA.net\nver 1.1 with LED Driver\n2020" (at 147.75 80.425) (layer "B.SilkS") (tstamp 685faa48-12df-4de2-9770-92353bf773e3)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
   (gr_text "LED+" (at 129.875 79.725) (layer "B.SilkS") (tstamp 83d3fdbb-ebb1-424f-9d6c-c43b2ad2ff17)
