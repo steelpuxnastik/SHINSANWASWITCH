@@ -31,6 +31,7 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
   - 1x JST `PHR-2` or equivalent.
   - 1x 2 pin .1" female connector housing.
   
+<img src="source/board.webp" align="right" alt="board" />
 ### Pin mapping
 
 I/O port (from up to down):
