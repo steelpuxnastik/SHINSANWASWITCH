@@ -1,3 +1,5 @@
+<img src="source/shinsanwaswitchlogo.svg" align="right" alt="shinsanwaswitchlogo" />
+
 # SHINSANWASWITCH
 
 DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm Chinese arcade buttons. Enables an OBSA-LHSXF+OBSA-100UMQ-like setup at low cost with generic parts.
