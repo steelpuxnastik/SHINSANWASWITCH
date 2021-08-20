@@ -5,17 +5,17 @@
 DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm Chinese arcade buttons. Enables an OBSA-LHSXF+OBSA-100UMQ-like setup at low cost with generic parts.
 
 ## Updates
-- Now we are corrently working on SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two parts: v1 and v1.1 . If you want corrently stable version - use everything that named "v1". 
+- This is branch of SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two branches: *main* with stable version 1.0 and *version1.1* . If you want corrently stable version - use *main* branch. 
 Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to make different variants of PCB to make with possibility to make one-layered-board at home (if you have anought skill). More info here:  https://www.projectdiva.net/community/threads/shinsanwaswitch-blog-of-creating-diy-analog-of-obsa-lhsxf-ln.2325/page-2#post-18644
 
 ## Parts list
 
 ### Electrical
 
-- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch_v1.zip`)
+- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins holes, especially for this holes in v1.1 boards were enlarged to fit two wires. Make sure that wires of capacitor do not contacts other pins, for reliability, wires of capasitor better to isolate with heat shrinkage)
-  - STI1: `NSI45020AT1G` (for standard v1 and v1.1 with LED driver boards version) or R4: 470ohm 5% 1/4W through hole (for v1.1 board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins holes, especially for this holes were enlarged to fit two wires. Make sure that wires of capacitor do not contacts other pins, for reliability, wires of capasitor better to isolate with heat shrinkage)
+  - STI1: `NSI45020AT1G` (for standard and one-layered-board with LED driver board versions) or R4: 470ohm 5% 1/4W through hole (for one-layered-board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
   - PC1: `RPI-352`.
