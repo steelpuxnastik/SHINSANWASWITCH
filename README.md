@@ -33,6 +33,8 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
   
 ### Pin mapping
 
+<img src="source/board.webp" align="right" alt="board" width="40%" height="40%" />
+
 I/O port (from up to down):
 
 | \#  | Description |
@@ -42,8 +44,6 @@ I/O port (from up to down):
 |  3  | +5V |
 |  4  | OUT |
 |  5  | GND |
-
-<img src="source/board.webp" align="right" alt="board" width="40%" height="40%" />
 
 LED connector (from up to down):
 
