@@ -14,7 +14,8 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
 
 - PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch_v1.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - D1: `NSI45020AT1G`.
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins holes, especially for this holes in v1.1 boards were enlarged to fit two wires. Make sure that wires of capacitor do not contacts other pins, for reliability, wires of capasitor better to isolate with heat shrinkage)
+  - STI1: `NSI45020AT1G` (for standard v1 and v1.1 with LED driver boards version) or R4: 470ohm 5% 1/4W through hole (for v1.1 board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
   - PC1: `RPI-352`.
@@ -23,13 +24,13 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
   - R2: 22kohm 5% 1/4W through hole.
   - R3: 10kohm 5% 1/4W through hole.
 - 1x harness
-  - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself)
+  - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself, I recommend you to found on aliexpress for it 5pin 22 AWG white-blue-red-green-black cable, it amazingly fits connector, feels very reliable and also fits into the understandable color scheme)
   - 1x JST `PHR-5` or equivalent.
 - 1x LED assembly (no resistors required)
-  - 2x **JST PH** to **.1" female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. Can be made by soldering single-ended JST PH wire and .1" female wire together and wrapping each wire with heat shrink tubing).
-  - 1x 20mA through hole white LED (plugs into the .1" female connector).
+  - 2x **JST PH** to **.1" (BLS-02/Dupont 2pin) female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. Can be made by soldering single-ended JST PH wire and .1" (BLS-02/Dupont 2pin) female wire together and wrapping each wire with heat shrink tubing).
+  - 1x 20mA through hole white LED (plugs into the .1" (BLS-02/Dupont 2pin) female connector).
   - 1x JST `PHR-2` or equivalent.
-  - 1x 2 pin .1" female connector housing.
+  - 1x 2 pin .1" (BLS-02/Dupont 2pin) female connector housing.
   
 ### Pin mapping
 
