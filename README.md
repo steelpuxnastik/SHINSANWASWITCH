@@ -30,6 +30,25 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
   - 1x 20mA through hole white LED (plugs into the .1" female connector).
   - 1x JST `PHR-2` or equivalent.
   - 1x 2 pin .1" female connector housing.
+  
+### Pin mapping
+
+I/O port (from up to down):
+
+| \#  | Description |
+| --- | ----------- |
+|  1  | LED+ |
+|  2  | LED- |
+|  3  | +5V |
+|  4  | OUT |
+|  5  | GND |
+
+LED connector (from up to down):
+
+| \#  | Description |
+| --- | ----------- |
+|  1  | + |
+|  2  | - |
 
 ### Mechanical
 
