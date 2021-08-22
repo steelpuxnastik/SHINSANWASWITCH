@@ -29,7 +29,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
   - R1: 330ohm 5% 1/4W through hole.
   - R2: 22kohm 5% 1/4W through hole.
   - R3: 10kohm 5% 1/4W through hole.
-  - STI1: `NSI45020AT1G` (for standard and one-layered-board with LED driver board versions) or R4: 470ohm 5% 1/4W through hole (for one-layered-board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
+  - STI1: `NSI45020AT1G` (for `standard` and `LEDDriver_one-layer` board versions) or R4: 470ohm 5% 1/4W through hole (for `Resistor_one-layer` board and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
 - 1x harness
   - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself, I recommend you to found on aliexpress for it 5 pin 22 AWG white-blue-red-green-black cable, it amazingly fits connector, feels very reliable and also fits into the understandable color scheme)
   - 1x JST `PHR-5` or equivalent.
