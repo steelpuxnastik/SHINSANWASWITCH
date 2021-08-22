@@ -19,7 +19,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
 
 # Parts needed
 
-- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (one of three possible variants, see above)
+- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (one of three possible variants, see [above](#shinsanwaswitch-pcb-possible-variants))
   - C1: Generic 0.1uF through hole ceramic capacitor.
   - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](#some-nuances-of-board-assembly) for more ditails)
   - J1: `S5B-PH-K-S` or equivalent.
@@ -31,7 +31,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
   - R3: 10kohm 5% 1/4W through hole.
   - STI1: `NSI45020AT1G` (for standard and one-layered-board with LED driver board versions) or R4: 470ohm 5% 1/4W through hole (for one-layered-board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
 - 1x harness
-  - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself, I recommend you to found on aliexpress for it 5pin 22 AWG white-blue-red-green-black cable, it amazingly fits connector, feels very reliable and also fits into the understandable color scheme)
+  - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself, I recommend you to found on aliexpress for it 5 pin 22 AWG white-blue-red-green-black cable, it amazingly fits connector, feels very reliable and also fits into the understandable color scheme)
   - 1x JST `PHR-5` or equivalent.
 - 1x LED assembly (no resistors required)
   - 2x **JST PH** to **.1" (BLS-02/Dupont 2pin) female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. I recommend to use wires flexible as possible, that will be very useful. Wires length - somewhere around ~150-160mm, need be shorter as possible, because long wires will be nowhere to fold. Can be made by soldering single-ended JST PH wire and .1" (BLS-02/Dupont 2pin) female wire together and wrapping each wire with heat shrink tubing).
