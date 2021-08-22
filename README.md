@@ -15,7 +15,7 @@ Detais about PCB and it's variants can be found in [readme in shinsanwaswitch_PC
 
 - PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins holes, especially for this holes were enlarged to fit two wires. Make sure that wires of capacitor do not contacts other pins, for reliability, wires of capasitor better to isolate with heat shrinkage)
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](https://github.com/steelpuxnastik/SHINSANWASWITCH/tree/version1.1/shinsanwaswitch_PCB#some-nuances-of-board-assembly) for more ditails)
   - STI1: `NSI45020AT1G` (for standard and one-layered-board with LED driver board versions) or R4: 470ohm 5% 1/4W through hole (for one-layered-board with resistor and 12v power-up 20mA LED, in other case use calculation to know what resistor you need to use)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
