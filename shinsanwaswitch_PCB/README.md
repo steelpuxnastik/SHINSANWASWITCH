@@ -64,4 +64,9 @@ LED connector (from up to down):
 # Some nuances of board assembly
 
 - I recommend to start assembly of the board from soldering STI1 (or R4), because of you'll try to do it later, especially after soldering LED and J1 connectors - it will be quite difficult because of small space available.
-<img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/1.webp" align="right" alt="board" width=10% height=10% />
+<img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/1.webp" alt="board" width=30% height=30% />
+
+- I also recommend to cut leads pins of components to make it shorter as possible before soldering. In body of SHINSANWASWITCH there are available some space to fit the leads pins from the board (according to the drawing - 1.4mm from the board to the bottom of body, but in reality that space can be +/-0.1mm smaller/bigger because of possible nuances of 3D-printing and final installation of board inside the body), so make sure that output leads pins from the PCB does not protrude above ~1mm from the board to eliminate possible problems with installing the board because of that.
+<img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/2.webp" alt="board" width=30% height=30% /> <img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/3.webp" alt="board" width=30% height=30% /> 
+
+- 
