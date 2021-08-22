@@ -27,7 +27,7 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
   - 5x Single-ended **JST PH** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself, I recommend you to found on aliexpress for it 5pin 22 AWG white-blue-red-green-black cable, it amazingly fits connector, feels very reliable and also fits into the understandable color scheme)
   - 1x JST `PHR-5` or equivalent.
 - 1x LED assembly (no resistors required)
-  - 2x **JST PH** to **.1" (BLS-02/Dupont 2pin) female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. Can be made by soldering single-ended JST PH wire and .1" (BLS-02/Dupont 2pin) female wire together and wrapping each wire with heat shrink tubing).
+  - 2x **JST PH** to **.1" (BLS-02/Dupont 2pin) female** wires (can be found on e.g. aliexpress or alternatively you can crimp them yourself. I recommend to use wires flexible as possible, that will be very useful. Wires length - somewhere around ~150-160mm, need be shorter as possible, because long wires will be nowhere to fold. Can be made by soldering single-ended JST PH wire and .1" (BLS-02/Dupont 2pin) female wire together and wrapping each wire with heat shrink tubing).
   - 1x 20mA through hole white LED (plugs into the .1" (BLS-02/Dupont 2pin) female connector).
   - 1x JST `PHR-2` or equivalent.
   - 1x 2 pin .1" (BLS-02/Dupont 2pin) female connector housing.
