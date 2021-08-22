@@ -21,7 +21,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
 
 - PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (one of three possible variants, see above)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](shinsanwaswitch_PCB#some-nuances-of-board-assembly) for more ditails)
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](#some-nuances-of-board-assembly) for more ditails)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
   - PC1: `RPI-352`.
