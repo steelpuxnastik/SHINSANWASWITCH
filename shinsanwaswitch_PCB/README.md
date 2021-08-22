@@ -11,6 +11,7 @@ If you have suitable version, open the main windows of KiCad and click menu "Fil
 - `shinsanwaswitch_v1.1-standard.kicad_pro`
 - `shinsanwaswitch_v1.1-LEDDriver_one-layer.kicad_pro`
 - `shinsanwaswitch_v1.1-Resistor_one-layer.kicad_pro`
+
 So you need to choose what you need project file and then same to open same-named satellite files with PCB or schematic.
 
 # PCB thickness
@@ -40,7 +41,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
   
 # Pin mapping
 
-<img src="source/board.webp" align="right" alt="board" width="40%" height="40%" />
+<img src="https://github.com/steelpuxnastik/SHINSANWASWITCH/source/board.webp" align="right" alt="board" width="40%" height="40%" />
 
 I/O port (from up to down):
 
