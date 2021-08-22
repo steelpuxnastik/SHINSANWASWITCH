@@ -61,6 +61,7 @@ LED connector (from up to down):
 |  1  | + |
 |  2  | - |
 
-# Assembly of board
+# Some nuances of board assembly
 
-To be done later.
+- I recommend to start assembly of the board from soldering STI1 (or R4), because of you'll try to do it later, especially after soldering LED and J1 connectors - it will be quite difficult because of small space available.
+<img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/1.webp" align="right" alt="board" width=10% height=10% />
