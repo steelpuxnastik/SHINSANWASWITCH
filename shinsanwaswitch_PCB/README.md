@@ -41,8 +41,6 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
   
 # Pin mapping
 
-<img src="https://github.com/steelpuxnastik/SHINSANWASWITCH/source/board.webp" align="right" alt="board" width="40%" height="40%" />
-
 I/O port (from up to down):
 
 | \#  | Description |

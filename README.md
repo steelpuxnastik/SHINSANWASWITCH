@@ -11,6 +11,7 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
 ## Parts list
 
 ### Electrical
+Detais about PCB and it's variants can be found in ![readme in shinsanwaswitch_PCB thread](shinsanwaswitch_PCB/README.md)
 
 - PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
