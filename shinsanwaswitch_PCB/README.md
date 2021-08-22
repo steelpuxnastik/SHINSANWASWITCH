@@ -21,7 +21,7 @@ SHISANWASWITCH body allows to install **only 1mm thickness PCB**. So be sure whe
 
 - PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (one of three possible variants, see above)
   - C1: Generic 0.1uF through hole ceramic capacitor.
-  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins holes, especially for this holes were enlarged to fit two wires. Make sure that wires of capacitor do not contacts other pins, for reliability, wires of capasitor better to isolate with heat shrinkage)
+  - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (read [some nuances of board assembly](shinsanwaswitch_PCB#some-nuances-of-board-assembly) for more ditails)
   - J1: `S5B-PH-K-S` or equivalent.
   - LED: `S2B-PH-K-S` or equivalent.
   - PC1: `RPI-352`.
@@ -66,7 +66,10 @@ LED connector (from up to down):
 - I recommend to start assembly of the board from soldering STI1 (or R4), because of you'll try to do it later, especially after soldering LED and J1 connectors - it will be quite difficult because of small space available.
 <img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/1.webp" alt="board" width=30% height=30% />
 
-- I also recommend to cut leads pins of components to make it shorter as possible before soldering. In body of SHINSANWASWITCH there are available some space to fit the leads pins from the board (according to the drawing - 1.4mm from the board to the bottom of body, but in reality that space can be +/-0.1mm smaller/bigger because of possible nuances of 3D-printing and final installation of board inside the body), so make sure that output leads pins from the PCB does not protrude above ~1mm from the board to eliminate possible problems with installing the board because of that.
+- I also recommend to cut leads pins of THT-type components to make it shorter as possible before soldering. In body of SHINSANWASWITCH there are available some space to fit the leads pins from the board (according to the drawing - 1.4mm from the board to the bottom of body, but in reality that space can be +/-0.1mm smaller/bigger because of possible nuances of 3D-printing and final installation of board inside the body), so make sure that output leads pins from the PCB does not protrude above ~1mm from the board to eliminate possible problems with installing the board because of that.
+
 <img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/2.webp" alt="board" width=30% height=30% /> <img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/3.webp" alt="board" width=30% height=30% /> 
 
-- 
+- It's not necessary, but recommended to 47uF 6.3v electrolitic capacitor on the power line input. There is no separated place on board for it's installing, so can be soldered directly to S5B-PH-K-S +5v and GND pins in case of usage SMD-type electrolitic capacitor (look image). If you use THT-type electrolitic capacitor - you can put leads pins of capacitor directly to +5v and GND pins holes on the board with JST connector, it's possible because for this holes of +5v and GND were enlarged to fit two leads pins in one hole. Make sure that leads pins of capacitor do not contacts other nearby leads pins, for reliability, leads pins of capasitor better to isolate with heat shrinkage before soldering.
+
+<img src="https://raw.githubusercontent.com/steelpuxnastik/SHINSANWASWITCH/version1.1/source/assimages/4.webp" alt="board" width=30% height=30% /> 
