@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/kicad
-# Edit at https://www.gitignore.io/?templates=kicad
+# Created by https://www.toptal.com/developers/gitignore/api/kicad
+# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
 
 ### KiCad ###
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
@@ -11,6 +11,8 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -33,17 +35,14 @@ fp-info-cache
 ### KiCad Patch ###
 rescue-backup/
 
+# New archive backups
+
+*-backups
+
 *.tsv
 bom/
 
 # Gerber export output
 out/
 
-# New archive backups
-
-*-backups
-
-# New local settings
-*.kicad_prl
-
-# End of https://www.gitignore.io/api/kicad
+# End of https://www.toptal.com/developers/gitignore/api/kicad
