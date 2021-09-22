@@ -1042,7 +1042,7 @@
     (uuid e1c04423-3561-4ccd-94dd-ce73aeebcd59)
     (property "Reference" "PC1" (id 0) (at 138 68.6226 0))
     (property "Value" "RPI-352" (id 1) (at 138 70.9215 0))
-    (property "Footprint" "RPI-221:RPI-352" (id 2) (at 131.5466 83.8708 0)
+    (property "Footprint" "RPI-221:RPI-352_otherholes" (id 2) (at 131.5466 83.8708 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/348/rpi-221-208938.pdf" (id 3) (at 136.6266 78.7908 0)
@@ -1087,7 +1087,7 @@
       (reference "LED1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
     )
     (path "/e1c04423-3561-4ccd-94dd-ce73aeebcd59"
-      (reference "PC1") (unit 1) (value "RPI-352") (footprint "RPI-221:RPI-352")
+      (reference "PC1") (unit 1) (value "RPI-352") (footprint "RPI-221:RPI-352_otherholes")
     )
     (path "/bee2bef6-3a14-4cbf-8e61-794bd3a2d0e3"
       (reference "Q1") (unit 1) (value "2SC5395") (footprint "Package_TO_SOT_THT:TO-92S_Wide")
