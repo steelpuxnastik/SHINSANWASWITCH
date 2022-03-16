@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
+
 <img src="source/shinsanwaswitchlogo.svg" align="right" alt="shinsanwaswitchlogo" />
 
 # SHINSANWASWITCH
