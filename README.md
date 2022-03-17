@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
+
 <img src="source/shinsanwaswitchlogo.svg" align="right" alt="shinsanwaswitchlogo" />
 
 # SHINSANWASWITCH
@@ -5,7 +7,7 @@
 DIY-friendly photointerrupter microswitch/lamp holder 2-in-1 for generic 100mm Chinese arcade buttons. Enables an OBSA-LHSXF+OBSA-100UMQ-like setup at low cost with generic parts.
 
 ## Updates
-- This is branch of SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two branches: *main* with stable version 1.0 and *version1.1* . If you want corrently stable version - use *main* branch. 
+- This is branch of beta-version SHINSANWASWITCH update version 1.1 with some optimizations that needs to be verified, so now everything is divided into two branches: *main* with stable version 1.0 and version1.1 in *beta* . If you want corrently stable version - use *main* branch. 
 Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to make different variants of PCB to make with possibility to make one-layered-board at home (if you have anought skill). More info here:  https://www.projectdiva.net/community/threads/shinsanwaswitch-blog-of-creating-diy-analog-of-obsa-lhsxf-ln.2325/page-2#post-18644
 
 ## Parts list
