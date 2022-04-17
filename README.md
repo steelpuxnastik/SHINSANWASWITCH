@@ -14,7 +14,7 @@ Version 1.1 has some optimizations in body of SHINSANWASWITCH and possibility to
 
 ### Electrical
 
-- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 5.99+ (5.99.0-11737-gca42f31bb5), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
+- PCB: 1x `shinsanwaswitch_PCB` **1mm thickness** (KiCad 6.99+ (6.99.0-1330-ge68e2e973e), release build required for exporting Gerber files or take Gerber files archive in `Gerber/shinsanwaswitch.zip`)
   - C1: Generic 0.1uF through hole ceramic capacitor.
   - C2: *not necessary, but recommended* 47uF 6.3v electrolitic capacitor on the power line input (there is no separated place on board for it's installing, so can be soldered directly to `S5B-PH-K-S` +5v and GND pins)
   - STI1: `NSI45020AT1G`
