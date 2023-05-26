@@ -80,3 +80,4 @@ LED connector (from up to down):
 
 ## Source files
 In folder `source` there are available source files that used to create 3D-models in SolidWorks. You can use them to make your modification, if you need it.
+Original 100mm arcade button Solidworks source files taken from https://grabcad.com/library/100mm-button-1 and very helped me to make this thing.
