@@ -82,6 +82,7 @@ LED connector (from up to down):
 ## Source files
 In folder `source` there are available source files that used to create 3D-models in SolidWorks. You can use them to make your modification, if you need it.
 
+Original 100mm arcade button Solidworks source files taken from https://grabcad.com/library/100mm-button-1 and very helped me to make this thing.
+
 # Known issues 
 At this moment there is no possibility to connect SHINSANWASWITCH (and its active board) to regular matrices, where used connection between different pins, but not pin to ground that used here. If you know how to get around this problem - please, write about that in our issues thread: https://github.com/steelpuxnastik/SHINSANWASWITCH/issues/1
-Original 100mm arcade button Solidworks source files taken from https://grabcad.com/library/100mm-button-1 and very helped me to make this thing.
